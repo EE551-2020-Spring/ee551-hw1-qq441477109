@@ -40,11 +40,18 @@ def lists():
     #   first row is [1, 4, 5]
     #   second row is [6, 10, 11]
     #   third row is [12, 17, 38]
-
+    A = [[1,4,5],[6, 10, 11],[12, 17, 38]]
     # Collect the items in the last column of matrix A using list comprehension
-
+    B=[A[0][-1],A[1][-1],A[2][-1]]
     # Collect only the even items of the diagonal of matrix A using list comprehension
-
+    C=[A[0][0],A[1][1],A[2][2]]
+    L = []
+    if (C[0]%2) == 0:
+    L.append(C[0])
+    if (C[1]%2) == 0:
+    L.append(C[1])
+    if (C[2]%2) == 0:
+    L.append(C[2])
     # We can convert a single character to its underlying integer code (e.g., its ASCII byte value)
     # by passing it to the built-in ord function. Generate a list of these integers to represent
     # each character of the string "Stevens" using list comprehension.
