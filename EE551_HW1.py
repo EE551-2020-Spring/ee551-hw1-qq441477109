@@ -55,7 +55,7 @@ def lists():
     # We can convert a single character to its underlying integer code (e.g., its ASCII byte value)
     # by passing it to the built-in ord function. Generate a list of these integers to represent
     # each character of the string "Stevens" using list comprehension.
-
+     
     return p, r, c, d, o
 
 
@@ -67,12 +67,12 @@ def dictionaries():
     #   fruit => "apple"
     #   quantity => 4
     #   color => "green"
-
+    f = {}
     # Get the item in dictionary f that the key "fruit" maps to
-
+    
     # Increase the quantity of f by 1
     # IMPLEMENT IT HERE
-
+    
     # Create a nested dictionary where:
     #   name => {first_name => "Grace", last_name => "Hopper"} (a dictionary)
     #   jobs => ["scientist", "engineer"] (a list)
